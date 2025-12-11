@@ -256,9 +256,9 @@ get_header(); ?>
       $trendingBlogs = new WP_Query([
         "posts_per_page" => 7,
         "post__not_in" => $filterBlogIdsArray,
-        "meta_key" => "total_trending_score",
         "orderby" => "meta_value_num",
         "order" => "DESC",
+        // "meta_key" => "total_trending_score",
       ]);
 
       //looping the post received from custom query above
