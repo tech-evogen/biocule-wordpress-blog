@@ -342,9 +342,9 @@ blog home hero section
   @media (max-width: 768px) {
     gap: 0rem;
     &__card {
-      opacity: 0;
-      display: none;
-      visibility: hidden;
+      // opacity: 0;
+      // display: none;
+      // visibility: hidden;
       pointer-events: none;
 
       &--img {
